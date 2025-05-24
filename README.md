@@ -1,6 +1,6 @@
-# 🚀 AstroGPT – Space Science RAG Chatbot
+# 🚀 AstroAI – Space Science RAG Chatbot
 
-**AstroGPT** is an AI-powered chatbot built using **Retrieval-Augmented Generation (RAG)** to provide informative, factual, and contextual answers in the field of **astronomy and space science**. It includes streaming responses, prompt control, and basic identity filtering.
+**AstroAI** is an AI-powered chatbot built using **Retrieval-Augmented Generation (RAG)** to provide informative, factual, and contextual answers in the field of **astronomy and space science**. It includes streaming responses, prompt control, and basic identity filtering.
 
 ---
 
@@ -8,7 +8,6 @@
 
 * 🔭 **Domain-specific RAG** using a curated space science knowledge base
 * 💬 **Real-time streaming** responses using Flask and Server-Sent Events (SSE)
-* 🧠 Built on top of **OpenAI GPT-4 / GPT-3.5** for generation
 * 📚 Semantic search using `FAISS` and text embeddings
 * 🛡️ Identity query filtering to skip generic assistant identity responses
 * 🌐 Easy-to-use frontend for chat interaction
@@ -45,7 +44,7 @@ astro-ai/
    * Embed query
    * Retrieve top relevant chunks from space documents
    * Combine with prompt template
-4. **LLM generation** → GPT-4 generates answer using prompt + context
+4. **LLM generation** → Gemini generates answer using prompt + context
 5. **Streaming** → Partial tokens streamed back via SSE to frontend
 
 ---
